@@ -1,8 +1,8 @@
-describe('My module', function () {
+describe('ngDebug', function () {
 
   describe('init', function () {
-    it('should include the MYPROJECT module', function () {
-      expect(!!MYPROJECT).toBe(true);
+    it('should include the ngDebug module', function () {
+      expect(!!$A).toBe(true);
     });
   });
 

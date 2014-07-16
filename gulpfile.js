@@ -12,7 +12,7 @@ var gulp    = require('gulp'),
 var paths = {
   output : 'dist/',
   scripts : [
-    'src/project.js'
+    'src/ngDebug.js'
   ],
   test: [
     'test/spec/**/*.js'

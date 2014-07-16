@@ -1,12 +1,12 @@
 {
   "name": "ngDebug",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A small library providing utilities to debug AngularJS-based apps in Chrome Devtools",
   "author": "@YannickDot",
   "license": "MIT",
   "homepage": "https://github.com/YannickDot/ngDebug",
   "devDependencies": {
-    "gulp": "~3.7.0",
+    "gulp": "~3.8.6",
     "gulp-uglify": "~0.3.0",
     "gulp-rename": "~1.1.0",
     "gulp-clean": "^0.2.4",
