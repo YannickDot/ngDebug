@@ -13,15 +13,15 @@
 
   var ngDebug = {};
 
-	var getType = function(t) { return Object.prototype.toString.call(t); };
+	var isString = function(t) { return (Object.prototype.toString.call(t) === '[object String]'); };
 
 	ngDebug.scope = function scope(targetNode) {
-		var elem = (getType(targetNode) === '[object String]') ? document.querySelector(targetNode) : targetNode;
+		var elem = isString(targetNode) ? document.querySelector(targetNode) : targetNode;
 		return angular.element(element).scope();
 	};
 
 	ngDebug.isolateScope = function isolateScope(targetNode) {
-		var elem = (getType(targetNode) === '[object String]') ? document.querySelector(targetNode) : targetNode;
+		var elem = isString(targetNode) ? document.querySelector(targetNode) : targetNode;
 		return angular.element(element).isolateScope();
 	};
 
