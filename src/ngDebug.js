@@ -16,12 +16,17 @@
 
 	ngDebug.scope = function scope(targetNode) {
 		var elem = isString(targetNode) ? document.querySelector(targetNode) : targetNode;
-		return angular.element(element).scope();
+		return angular.element(elem).scope();
 	};
 
 	ngDebug.isolateScope = function isolateScope(targetNode) {
 		var elem = isString(targetNode) ? document.querySelector(targetNode) : targetNode;
-		return angular.element(element).isolateScope();
+		return angular.element(elem).isolateScope();
+	};
+
+	ngDebug.controller = function controller(targetNode) {
+		var elem = isString(targetNode) ? document.querySelector(targetNode) : targetNode;
+		return angular.element(elem).controller();
 	};
 
 	ngDebug.service = function service(serviceName) {
