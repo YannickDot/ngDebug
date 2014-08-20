@@ -12,13 +12,33 @@ ngDebug is a small library providing command line utilities to debug AngularJS-b
 
 2. Start using it!
 
-	Debug a controler scope using css selectors :
+	Debug a controller/scope using css selectors :
     ```js
-    $A.scope(CSS_SELECTOR)
+    $A.controller(selector);
+    $A.scope(selector);
+    ```
+
+    Debug a controller/scope using HTMLElements references :
+    ```js
+    $A.controller(HTMLElement);
+    $A.scope(HTMLElement);
+    ```
+
+    Debug scope using chrome commandLineAPI :
+    ```js
+    $A0.scope();
+    $A1.scope();
+    $A2.scope();
+    $A3.scope();
+    ```
+
+    Debug a service by service name :
+    ```js
+    $A.service(serviceName);
     ```
 
 ## License
-&lt;x-iscroll&gt; is released under the [MIT License](http://opensource.org/licenses/MIT).
+ngDebug is released under the [MIT License](http://opensource.org/licenses/MIT).
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.

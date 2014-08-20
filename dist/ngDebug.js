@@ -55,7 +55,8 @@
 	};
 
 	ngDebug.service = function service(serviceName) {
-		return angular.element('html').injector().get(serviceName);
+		var html = document.querySelector('html');
+		return angular.element(html).injector().get(serviceName);
 	};
 
 	return ngDebug;
