@@ -1,0 +1,27 @@
+{
+  "name": "ngDebug",
+  "version": "1.0.0",
+  "homepage": "https://github.com/YannickDot/ngDebug",
+  "authors": [
+    "yannickdot"
+  ],
+  "description": "ngDebug is a small library providing command line utilities to debug AngularJS-based apps in Chrome Devtools.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angularjs",
+    "devtools"
+  ],
+  "license": "MIT",
+  "main": "dist/ngDebug.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
