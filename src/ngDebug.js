@@ -8,9 +8,33 @@
   }
 })(this, function () {
 
-  'use strict';
+  	'use strict';
 
-  var ngDebug = {};
+  	Object.defineProperty(window, '$A0', {
+	    get: function () {
+	        return angular.element(__commandLineAPI.$0);
+	    },
+	});
+
+	Object.defineProperty(window, '$A1', {
+	    get: function () {
+	        return angular.element(__commandLineAPI.$0);
+	    },
+	});
+
+	Object.defineProperty(window, '$A2', {
+	    get: function () {
+	        return angular.element(__commandLineAPI.$2);
+	    },
+	});
+
+	Object.defineProperty(window, '$A3', {
+	    get: function () {
+	        return angular.element(__commandLineAPI.$3);
+	    },
+	});
+
+  	var ngDebug = {};
 
 	var isString = function(t) { return (Object.prototype.toString.call(t) === '[object String]'); };
 
@@ -39,5 +63,15 @@
 
 
 /*
-TODO : bind $0 variable to $A0 for even more easier debug using inspector
+
+$A.scope(selector)  // using CSS selector
+
+$A.scope(HTMLElement) // using HTMLElement
+
+//Inspect scope/isolateScope based on commandLineAPI in chrome
+$A0.scope() //for $0
+$A1.scope() //for $1
+$A2.scope() //for $2
+$A3.scope() //for $3
+
 */
