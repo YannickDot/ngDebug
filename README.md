@@ -57,4 +57,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Thanks
 
-Inspired by [angular-console](https://github.com/jarrodldavis/angular-console) by jarrodldavis.
+Inspired by [angular-console](https://github.com/jarrodldavis/angular-console) by jarrodldavis and the [Ionic Framework Blog](http://ionicframework.com/blog/angularjs-console/) by [@maxlynch](https://twitter.com/maxlynch)
