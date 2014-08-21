@@ -2,13 +2,6 @@
 
 ngDebug is a small library providing command line utilities to debug AngularJS-based apps in Chrome Devtools.
 
-## Install
-
-Install with [Bower](http://bower.io):
-
-```sh
-$ bower install --save ngDebug
-```
 
 ## Usage
 
@@ -24,12 +17,14 @@ $ bower install --save ngDebug
     ```js
     $A.controller(selector);
     $A.scope(selector);
+    $A.isolateScope(selector);
     ```
 
     Debug a controller/scope using HTMLElements references :
     ```js
     $A.controller(HTMLElement);
     $A.scope(HTMLElement);
+    $A.isolateScope(HTMLElement);
     ```
 
     Debug scope using chrome commandLineAPI :
