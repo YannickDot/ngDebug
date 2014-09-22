@@ -18,7 +18,7 @@
 
 	Object.defineProperty(window, '$A1', {
 	    get: function () {
-	        return angular.element(__commandLineAPI.$0);
+	        return angular.element(__commandLineAPI.$1);
 	    },
 	});
 
