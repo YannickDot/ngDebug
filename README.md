@@ -2,6 +2,13 @@
 
 ngDebug is a small library providing command line utilities to debug AngularJS-based apps in Chrome Devtools.
 
+## Install
+
+Install with [Bower](http://bower.io):
+
+```sh
+$ bower install --save ngDebug
+```
 
 ## Usage
 
@@ -17,14 +24,12 @@ ngDebug is a small library providing command line utilities to debug AngularJS-b
     ```js
     $A.controller(selector);
     $A.scope(selector);
-    $A.isolateScope(selector);
     ```
 
     Debug a controller/scope using HTMLElements references :
     ```js
     $A.controller(HTMLElement);
     $A.scope(HTMLElement);
-    $A.isolateScope(HTMLElement);
     ```
 
     Debug scope using chrome commandLineAPI :
@@ -39,6 +44,11 @@ ngDebug is a small library providing command line utilities to debug AngularJS-b
     ```js
     $A.service(serviceName);
     ```
+    
+    Start ui-router debugging by listening to its lifecycle events :
+    ```js
+    $A.uiRouterDebug();
+    ```
 
 ## License
 ngDebug is released under the [MIT License](http://opensource.org/licenses/MIT).
@@ -49,7 +59,12 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 ## Release history
 - 1.0.0
   - Initial release
+- 1.1.0
+	- added ui-router debug 
 
 ## Thanks
 
-Inspired by [angular-console](https://github.com/jarrodldavis/angular-console) by jarrodldavis and the [Ionic Framework Blog](http://ionicframework.com/blog/angularjs-console/) by [@maxlynch](https://twitter.com/maxlynch)
+######Inspired by : 
+- [angular-console](https://github.com/jarrodldavis/angular-console) by jarrodldavis.
+- the [Ionic Framework Blog](http://ionicframework.com/blog/angularjs-console/) by [@maxlynch](https://twitter.com/maxlynch)
+- Adam's answer on [stackoverflow](http://stackoverflow.com/a/20786262/69362)
