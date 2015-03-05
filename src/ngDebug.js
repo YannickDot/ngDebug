@@ -49,6 +49,11 @@
 		return angular.element(elem).scope();
 	};
 
+	ngDebug.rootScope = function rootScope() {
+		var html = document.querySelector('html');
+		return angular.element(html).scope();
+	};
+
 	ngDebug.isolateScope = function isolateScope(targetNode) {
 		var elem = isString(targetNode) ? document.querySelector(targetNode) : targetNode;
 		return angular.element(elem).isolateScope();

@@ -32,6 +32,11 @@ $ bower install --save ngDebug
     $A.scope(HTMLElement);
     ```
 
+	Debug rootScope :
+    ```js
+    $A.rootScope();
+    ```
+
     Debug scope using chrome commandLineAPI :
     ```js
     $A0.scope();
