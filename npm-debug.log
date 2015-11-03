@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/var/nvm/versions/node/v0.12.0/bin/node',
+1 verbose cli   '/usr/local/var/nvm/versions/node/v0.12.0/bin/npm',
+1 verbose cli   'shrinkwrap' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose stack Error: Problems were encountered
+4 verbose stack Please correct and try again.
+4 verbose stack invalid: chokidar@1.0.0-rc3 /Users/yannicklevif/Dev/GitHub/ngDebug/node_modules/karma/node_modules/chokidar
+4 verbose stack     at shrinkwrap_ (/usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/lib/shrinkwrap.js:31:15)
+4 verbose stack     at /usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/lib/shrinkwrap.js:25:5
+4 verbose stack     at /usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/lib/ls.js:46:30
+4 verbose stack     at /usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+4 verbose stack     at /usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+4 verbose stack     at cb (/usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+4 verbose stack     at /usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+4 verbose stack     at cb (/usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+4 verbose stack     at /usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+4 verbose stack     at cb (/usr/local/var/nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+5 verbose cwd /Users/yannicklevif/Dev/GitHub/ngDebug
+6 error Darwin 15.0.0
+7 error argv "/usr/local/var/nvm/versions/node/v0.12.0/bin/node" "/usr/local/var/nvm/versions/node/v0.12.0/bin/npm" "shrinkwrap"
+8 error node v0.12.0
+9 error npm  v2.5.1
+10 error Problems were encountered
+10 error Please correct and try again.
+10 error invalid: chokidar@1.0.0-rc3 /Users/yannicklevif/Dev/GitHub/ngDebug/node_modules/karma/node_modules/chokidar
+11 error If you need help, you may report this error at:
+11 error     <http://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
