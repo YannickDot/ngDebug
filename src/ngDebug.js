@@ -18,25 +18,25 @@
 	Object.defineProperty(window, '$A0', {
     get: function () {
         return angular.element(__commandLineAPI.$0);
-    },
+    }
 	});
 
 	Object.defineProperty(window, '$A1', {
 	    get: function () {
 	        return angular.element(__commandLineAPI.$1);
-	    },
+	    }
 	});
 
 	Object.defineProperty(window, '$A2', {
 	    get: function () {
 	        return angular.element(__commandLineAPI.$2);
-	    },
+	    }
 	});
 
 	Object.defineProperty(window, '$A3', {
 	    get: function () {
 	        return angular.element(__commandLineAPI.$3);
-	    },
+	    }
 	});
 
 
